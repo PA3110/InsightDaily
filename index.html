@@ -50,6 +50,35 @@
             </li>
           </ul>
         </div>
+    <div class="search-bar flex">
+          <input
+            type="text"
+            class="news-input"
+            id="search-text"
+            placeholder="e.g. Science"
+          />
+          <button class="search-button" id="search-button">Search</button>
+        </div>
+      </div>
     </nav>
+    <main>
+      <div class="cards-container container flex" id="cards-container"></div>
+    </main>
+    <template id="template-news-card">
+      <div class="card">
+        <div class="card-header">
+          <img src="https://via.placeholder.com/400x200" alt="" id="news-img" />
+        </div>
+        <div class="card-content">
+          <h3 id="news-title">This is the title</h3>
+          <h6 class="news-source" id="news-source">constGenius 02/02/2024</h6>
+          <p class="news-desc" id="news-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+            cupiditate amet accusamus necessitatibus debitis vel quasi libero
+            architecto itaque illum.
+          </p>
+        </div>
+      </div>
+    </template>
   </body>
 </html>
